@@ -5,6 +5,6 @@ public class MainApp {
         rekeningSaya.setor(500000.0);
         rekeningSaya.tarik(200000.0);
 
-        System.out.println("Sisa saldo di rekening: "+rekeningSaya.getSaldo());
+        System.out.println("Sisa saldo di rekening: " + rekeningSaya.getSaldo());
     }
 }
