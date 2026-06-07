@@ -1,7 +1,7 @@
 package Inheritance;
 
 public class Hewan {
-    String nama;
+    public String nama;
 
     public Hewan(String nama)
     {
@@ -10,7 +10,7 @@ public class Hewan {
 
     public void makan()
     {
-        System.out.println(this.nama + " sedang makan");
+        System.out.println(nama + " sedang makan");
     }
 
     public void bersuara()
